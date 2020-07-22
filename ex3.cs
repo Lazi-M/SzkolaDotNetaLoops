@@ -6,7 +6,7 @@ namespace SzkolaDotNetaLoops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("To which number should i print");
+            Console.WriteLine("Input a number");
 
             int userInput = Int32.Parse(Console.ReadLine());
 
