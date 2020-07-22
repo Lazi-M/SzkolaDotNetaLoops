@@ -7,7 +7,7 @@ namespace SzkolaDotNetaLoops
         static void Main(string[] args)
         {
 
-            for (int i = 0; i <= 10; i++)
+            for (int i = 1; i <= 10; i++)
             {
                 Console.WriteLine($"{i} * {i} = {i*i}");
             }
@@ -17,7 +17,6 @@ namespace SzkolaDotNetaLoops
 }
 
 /*output
-0 * 0 = 0
 1 * 1 = 1
 2 * 2 = 4
 3 * 3 = 9
